@@ -1,7 +1,10 @@
 
 function [isPD, msg] = check_positive_definite(M)
     % check_positive_definite.m
-    % Function to check if a matrix is positive definite
+    % Function to check if a matrix is positive definite.
+    % This function first checks if the matrix is symmetric, 
+    % then uses Cholesky decomposition to determine if it is positive definite. 
+    % If the decomposition fails, it means the matrix isn't positive definite.
     %
     % Inputs:
     %   M - The input matrix
