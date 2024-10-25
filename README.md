@@ -15,9 +15,9 @@ VibrationToolbox/
 └── examples/
     ├── DetermineWhetherMatrixIsSPD.mlx               # Example: Checking positive definite property of a matrix
     ├── RangeSpaceOfMatrix.mlx                        # Example: Range space of a matrix
-    ├── NullSpaceOfMatrix.mlx                         # Example: Null space and range space of a matrix
+    ├── NullSpaceOfMatrix.mlx                         # Example: Null space of a matrix
     ├── SimilarityAndCongruenceTransformation.mlx     # Example: Similarity and congruence transformations
-    ├── BlockMatrices.mlx                             # Example: Block matrices and their deteminant and inverse
+    ├── BlockMatrices.mlx                             # Example: Block matrices and their determinant and inverse
     └── OrthogonalAndOrthonormalMatrix.mlx            # Example: Check for orthogonal and orthonormal matrices
 
 ```
